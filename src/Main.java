@@ -79,7 +79,7 @@ public class Main {
         System.out.println("Task 4");
 
         int [] arr = {1, 2, 3};
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < arr.length; i++) {
             if(arr [i] % 2 !=0){
                 arr[i] += 1;
             }
